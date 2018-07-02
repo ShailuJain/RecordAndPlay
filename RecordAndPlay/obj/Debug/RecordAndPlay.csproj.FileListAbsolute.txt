@@ -7,3 +7,12 @@ C:\Users\Shailesh\Documents\Programming\C#\Practise\RecordAndPlay\RecordAndPlay\
 C:\Users\Shailesh\Documents\Programming\C#\Practise\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.csproj.CoreCompileInputs.cache
 C:\Users\Shailesh\Documents\Programming\C#\Practise\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.exe
 C:\Users\Shailesh\Documents\Programming\C#\Practise\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.pdb
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.csprojResolveAssemblyReference.cache
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.Form1.resources
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.Properties.Resources.resources
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.csproj.GenerateResource.cache
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.csproj.CoreCompileInputs.cache
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.exe
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\obj\Debug\RecordAndPlay.pdb
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\bin\Debug\RecordAndPlay.exe
+C:\Users\Shailesh\Documents\Programming\C#\Projects\RecordAndPlay\RecordAndPlay\bin\Debug\RecordAndPlay.pdb

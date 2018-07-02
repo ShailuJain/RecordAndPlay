@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Windows.Input;
-using static RecordAndPlay.HookMethods;
+using static RecordAndPlay.NativeMethods;
 
 namespace RecordAndPlay
 {

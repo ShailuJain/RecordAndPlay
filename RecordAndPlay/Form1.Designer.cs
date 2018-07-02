@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             this.btnPanel = new System.Windows.Forms.Panel();
+            this.btnStop = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnRecord = new System.Windows.Forms.Button();
-            this.btnStop = new System.Windows.Forms.Button();
+            Form1.textBox1 = new System.Windows.Forms.TextBox();
+            Form1.textBox2 = new System.Windows.Forms.TextBox();
             this.btnPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +47,16 @@
             this.btnPanel.Size = new System.Drawing.Size(530, 105);
             this.btnPanel.TabIndex = 0;
             // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(221, 34);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(104, 38);
+            this.btnStop.TabIndex = 4;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // btnPlay
             // 
             this.btnPlay.Location = new System.Drawing.Point(396, 34);
@@ -53,6 +65,7 @@
             this.btnPlay.TabIndex = 3;
             this.btnPlay.Text = "Play";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnRecord
             // 
@@ -64,26 +77,35 @@
             this.btnRecord.UseVisualStyleBackColor = true;
             this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
             // 
-            // btnStop
+            // textBox1
             // 
-            this.btnStop.Location = new System.Drawing.Point(221, 34);
-            this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(104, 38);
-            this.btnStop.TabIndex = 4;
-            this.btnStop.Text = "Stop";
-            this.btnStop.UseVisualStyleBackColor = true;
-            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            Form1.textBox1.Location = new System.Drawing.Point(51, 191);
+            Form1.textBox1.Multiline = true;
+            Form1.textBox1.Name = "textBox1";
+            Form1.textBox1.Size = new System.Drawing.Size(260, 542);
+            Form1.textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            Form1.textBox2.Location = new System.Drawing.Point(317, 191);
+            Form1.textBox2.Multiline = true;
+            Form1.textBox2.Name = "textBox2";
+            Form1.textBox2.Size = new System.Drawing.Size(264, 542);
+            Form1.textBox2.TabIndex = 2;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 180);
+            this.ClientSize = new System.Drawing.Size(646, 766);
+            this.Controls.Add(Form1.textBox2);
+            this.Controls.Add(Form1.textBox1);
             this.Controls.Add(this.btnPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.btnPanel.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -93,6 +115,8 @@
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnRecord;
         private System.Windows.Forms.Button btnStop;
+        public static System.Windows.Forms.TextBox textBox1;
+        public static System.Windows.Forms.TextBox textBox2;
     }
 }
 

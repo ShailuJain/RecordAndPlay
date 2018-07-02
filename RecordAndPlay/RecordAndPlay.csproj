@@ -45,15 +45,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventDetails.cs" />
+    <Compile Include="EventPlayer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HookMethods.cs" />
+    <Compile Include="NativeMethods.cs" />
     <Compile Include="LowLevelKeyboardListener.cs" />
     <Compile Include="LowLevelMouseListener.cs" />
+    <Compile Include="NativeStructs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

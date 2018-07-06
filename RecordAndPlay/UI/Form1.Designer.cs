@@ -1,4 +1,4 @@
-﻿namespace RecordAndPlay
+﻿namespace UI
 {
     partial class Form1
     {

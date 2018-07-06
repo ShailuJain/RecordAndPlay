@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Windows.Input;
-using static RecordAndPlay.NativeMethods;
+using static Native.NativeMethods;
 
-namespace RecordAndPlay
+namespace Events
 {
     class LowLevelKeyboardListener
     {
@@ -18,10 +16,7 @@ namespace RecordAndPlay
         private const int WH_KEYBOARD_LL = 13;
 
         private const int KEYEVENTF_KEYUP = 0x0002;
-
-
-
-
+        
         private HookProc _proc;
         private IntPtr _hookID = IntPtr.Zero;
         private List<KeyValuePair<EventArgs, EventDetails>> events;

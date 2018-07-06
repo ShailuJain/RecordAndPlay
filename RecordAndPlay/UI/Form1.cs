@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Events;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
 
-namespace RecordAndPlay
+namespace UI
 {
     public partial class Form1 : Form
     {

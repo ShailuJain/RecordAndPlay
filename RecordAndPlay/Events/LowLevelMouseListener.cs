@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Native;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
-using static RecordAndPlay.NativeMethods;
+using static Native.NativeMethods;
 
-namespace RecordAndPlay
+namespace Events
 {
     class LowLevelMouseListener
     {

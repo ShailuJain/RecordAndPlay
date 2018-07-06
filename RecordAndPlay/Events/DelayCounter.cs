@@ -1,7 +1,7 @@
 ﻿
 using System.Threading;
 
-namespace RecordAndPlay
+namespace Events
 {
     public static class DelayCounter
     {

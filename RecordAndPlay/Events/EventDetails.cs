@@ -1,5 +1,5 @@
 ﻿
-namespace RecordAndPlay
+namespace Events
 {
     public class EventDetails
     {

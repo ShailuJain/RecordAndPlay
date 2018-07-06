@@ -1,12 +1,11 @@
-﻿using System;
+﻿using Events;
+using Native;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
-using System.Windows.Input;
 
-namespace RecordAndPlay
+namespace Events
 {
     class EventPlayer
     {
@@ -35,19 +34,9 @@ namespace RecordAndPlay
                     Console.WriteLine("key pressed");
                     KeyData keyEvent = item.Key as KeyData;
                     Thread.Sleep(eventDetails.delay + 300);
-                    //Form1.textBox3.AppendText(GetStringForKey(keyEvent.KeyPressed) + "\n");
-                    //SendKeys.Send(GetStringForVKCode(keyEvent.vkCode));
                     NativeMethods.keybd_event(keyEvent.vkCode, keyEvent.scanCode, (uint)keyEvent.dwFlags, UIntPtr.Zero);
                 }
             }
-        }
-
-        private string GetStringForVKCode(int vkCode)
-        {
-            string stringKey = VKStringMappings.vkStringMappings[(VirtualKeys)vkCode];
-            if (stringKey!=null)
-                return stringKey;
-            return KeyInterop.KeyFromVirtualKey(vkCode).ToString();
         }
     }
 }

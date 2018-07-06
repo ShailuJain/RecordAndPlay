@@ -18,8 +18,17 @@ namespace RecordAndPlay
         [DllImport("kernel32.dll", CharSet = CharSet.Auto, SetLastError = true)]
         public static extern IntPtr GetModuleHandle(string lpModuleName);
 
-        [DllImport("user32.dll",SetLastError = true)]
-        public static extern UInt32 SendInput(UInt32 nInputs, [MarshalAs(UnmanagedType.LPArray), In] INPUT[] pInputs, Int32 cbSize);
+        //[DllImport("user32.dll",SetLastError = true)]
+        //public static extern UInt32 SendInput(int nInputs, [MarshalAs(UnmanagedType.LPArray), In] INPUT[] pInputs, int cbSize);
+
+        [DllImport("user32.dll")]
+        public static extern void mouse_event(int dwFlags, int dx, int dy, int dwData,int dwExtraInfo);
+
+        //[DllImport("user32.dll", SetLastError = false)]
+        //public static extern IntPtr GetMessageExtraInfo();o
+
+        [DllImport("user32.dll")]
+        public static extern void keybd_event(int bVk, int bScan, uint dwFlags, UIntPtr dwExtraInfo);
 
         public delegate IntPtr HookProc(int nCode, IntPtr wParam, IntPtr lParam);
     }

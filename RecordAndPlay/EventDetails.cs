@@ -4,8 +4,8 @@ namespace RecordAndPlay
     public class EventDetails
     {
         public EventType eventType { get; }
-        public long delay { get; }
-        public EventDetails(EventType type, long delay)
+        public int delay { get; }
+        public EventDetails(EventType type, int delay)
         {
             this.eventType = type;
             this.delay = delay;

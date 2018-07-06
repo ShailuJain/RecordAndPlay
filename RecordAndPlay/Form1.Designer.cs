@@ -32,8 +32,6 @@
             this.btnStop = new System.Windows.Forms.Button();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnRecord = new System.Windows.Forms.Button();
-            Form1.textBox1 = new System.Windows.Forms.TextBox();
-            Form1.textBox2 = new System.Windows.Forms.TextBox();
             this.btnPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,35 +75,16 @@
             this.btnRecord.UseVisualStyleBackColor = true;
             this.btnRecord.Click += new System.EventHandler(this.btnRecord_Click);
             // 
-            // textBox1
-            // 
-            Form1.textBox1.Location = new System.Drawing.Point(51, 191);
-            Form1.textBox1.Multiline = true;
-            Form1.textBox1.Name = "textBox1";
-            Form1.textBox1.Size = new System.Drawing.Size(260, 542);
-            Form1.textBox1.TabIndex = 1;
-            // 
-            // textBox2
-            // 
-            Form1.textBox2.Location = new System.Drawing.Point(317, 191);
-            Form1.textBox2.Multiline = true;
-            Form1.textBox2.Name = "textBox2";
-            Form1.textBox2.Size = new System.Drawing.Size(264, 542);
-            Form1.textBox2.TabIndex = 2;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(646, 766);
-            this.Controls.Add(Form1.textBox2);
-            this.Controls.Add(Form1.textBox1);
+            this.ClientSize = new System.Drawing.Size(646, 166);
             this.Controls.Add(this.btnPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.btnPanel.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -115,8 +94,6 @@
         private System.Windows.Forms.Button btnPlay;
         private System.Windows.Forms.Button btnRecord;
         private System.Windows.Forms.Button btnStop;
-        public static System.Windows.Forms.TextBox textBox1;
-        public static System.Windows.Forms.TextBox textBox2;
     }
 }
 
